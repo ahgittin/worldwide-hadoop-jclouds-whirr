@@ -97,3 +97,6 @@ including setting up Geoscaling.)
 
 Then edit (e.g. locations) and run the `demo.brooklyn.BrooklynWebFabricWithHadoop` example 
 (or `examples/hadoop-and-whirr` in `https://github.com/brooklyncentral/brooklyn`).
+Make sure to run with `-Xmx256m -Xmx1g -XX:MaxPermSize=256m`.
+
+CORRECTION: Currently the Brooklyn example must be run from brooklyncentral/brooklyn examples

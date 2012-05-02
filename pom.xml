@@ -11,6 +11,17 @@
 
     <dependencies>
         <dependency>
+            <groupId>io.brooklyn</groupId>
+            <artifactId>brooklyn-all</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.brooklyn</groupId>
+            <artifactId>brooklyn-example-hadoop-and-whirr</artifactId>
+            <version>${project.version}</version>
+        </dependency>        
+    
+        <dependency>
             <groupId>org.apache.hadoop</groupId>
             <artifactId>hadoop-core</artifactId>
             <version>0.20.205.0</version>
@@ -28,16 +39,6 @@
             <version>0.8.0-SNAPSHOT</version>
         </dependency>
         
-        <dependency>
-            <groupId>io.brooklyn</groupId>
-            <artifactId>brooklyn-all</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>io.brooklyn</groupId>
-            <artifactId>brooklyn-example-hadoop-and-whirr</artifactId>
-            <version>${project.version}</version>
-        </dependency>        
     </dependencies>
 
     <repositories>
