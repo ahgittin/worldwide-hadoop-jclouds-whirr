@@ -12,6 +12,12 @@ Set `-D` arguments as described in its javadoc.
 This displays a private key which you can copy to a file (e.g. `/tmp/key`)
 and the IPs you can ssh to (e.g. `ssh -i /tmp/key user@host`).
 
+Alternatively you can run:
+
+    https://github.com/jclouds/jclouds-examples/blob/master/compute-basics/
+        src/main/java/org/jclouds/examples/compute/basics/MainApp.java
+    
+
 On one of these machines you can:
 
     `curl -O http://mirrors.ibiblio.org/apache/hadoop/common/hadoop-1.0.2/hadoop-1.0.2-bin.tar.gz`
